@@ -1,0 +1,32 @@
+{
+  "name": "siriusjs-lib",
+  "version": "0.0.7",
+  "description": "An extended lib based on bitcoinjs-lib that can generate contract creating and sending transactions",
+  "main": "src/index.js",
+  "keywords": [
+    "sirius",
+    "siriusjs",
+    "smart contract",
+    "sirx"
+  ],
+  "author": {
+    "name": "Sirius",
+    "email": "hello@getsirius.io",
+    "url": "https://getsirius.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siriuscore/siriusjs-lib.git"
+  },
+  "homepage": "https://github.com/siriuscore/siriusjs-lib",
+  "bugs": {
+    "url": "https://github.com/siriuscore/siriusjs-lib/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "bignumber.js": "^4.1.0",
+    "bitcoinjs-lib": "^3.3.2",
+    "safe-buffer": "^5.1.2"
+  }
+}

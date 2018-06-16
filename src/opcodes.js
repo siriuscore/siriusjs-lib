@@ -1,4 +1,4 @@
-export const OPS = {
+const OPS = {
     "OP_FALSE": 0,
     "OP_0": 0,
     "OP_PUSHDATA1": 76,
@@ -137,4 +137,5 @@ export const OPS = {
     "OP_PUBKEYHASH": 253,
     "OP_PUBKEY": 254,
     "OP_INVALIDOPCODE": 255
-  }
+  };
+  module.exports.OPS = OPS;

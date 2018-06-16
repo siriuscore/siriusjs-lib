@@ -1,7 +1,7 @@
 var bitcoinjs = require('bitcoinjs-lib')
 var BigNumber = require('bignumber.js')
 var Buffer = require('safe-buffer').Buffer
-import { OPS } from "./opcodes.js"
+const { OPS } = require('./opcodes.js')
 
 /**
  * This is a function for selecting SIRX utxos to build transactions

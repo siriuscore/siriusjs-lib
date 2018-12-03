@@ -1,7 +1,7 @@
-var bitcoinjs = require('bitcoinjs-lib')
-var BigNumber = require('bignumber.js')
-var Buffer = require('safe-buffer').Buffer
-const { OPS } = require('./opcodes.js')
+var bitcoinjs = require('bitcoinjs-lib');
+var BigNumber = require('bignumber.js');
+var Buffer = require('safe-buffer').Buffer;
+var OPS = require('./opcodes.js');
 
 /**
  * This is a function for selecting SIRX utxos to build transactions
@@ -190,5 +190,5 @@ module.exports = {
     selectTxs: selectTxs,
     buildPubKeyHashTransaction: buildPubKeyHashTransaction,
     buildCreateContractTransaction: buildCreateContractTransaction,
-    buildSendToContractTransaction: buildSendToContractTransaction,
+    buildSendToContractTransaction: buildSendToContractTransaction
 }

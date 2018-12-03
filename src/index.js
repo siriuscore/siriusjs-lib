@@ -1,7 +1,7 @@
-var siriusjs = require('bitcoinjs-lib')
+var siriusjs = require('bitcoinjs-lib');
 
-Object.assign(siriusjs.networks, require('./networks'))
+Object.assign(siriusjs.networks, require('./networks'));
 
-siriusjs.utils = require('./utils')
+siriusjs.utils = require('./utils');
 
-module.exports = siriusjs
+module.exports = siriusjs;
